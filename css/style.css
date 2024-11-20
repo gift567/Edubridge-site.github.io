@@ -12,7 +12,7 @@ body {
   right: 20px;
   width: 38px; /* Width of image */
   height: 38px; /* Height of image */
-  background: url(../images/top.png) no-repeat;
+  
 }
 /* Nav */
 
@@ -27,7 +27,8 @@ body {
 }
 
 .navbar .logo img {
-    width: 120px;
+    width: 220px;
+	height: 15vh;
 }
 
 .nav-links {
@@ -170,6 +171,11 @@ body {
 	outline: none;
 }
 
+
+#mainCarousel .hero button:hover{
+	color: #E9AB17;
+}
+
 #mainCarousel .carousel-indicators {
 	position: absolute;
 	z-index: 1000;
@@ -282,6 +288,7 @@ body {
 	letter-spacing: 1px;
 	font-weight: 600;
 	text-align: center;
+	
 }
 
 #about .text p {
@@ -321,7 +328,7 @@ body {
 
 #about .panel-heading {
      border: none;
-     background-color: #E9AB17;
+     background-color: #000000;
      color: #fff;
 }
 
@@ -582,7 +589,7 @@ img {
 #contact .contact-form button {
 	margin-top: 20px;
 	padding: 10px 20px;
-	background: #E9AB17;
+	background: #000000;
 	border: none;
 	color: #fff;
 	font-size: 16px;
@@ -627,6 +634,9 @@ img {
     padding-right: 75px;
     line-height: 40px;
 }
+#subscribe input{
+	background-color: #f1f1f1;
+}
 
 #subscribe p {
 	font-family: 'PT Sans', sans-serif;
@@ -637,6 +647,7 @@ img {
 #subscribe .input-group {
     width: 100%;
     margin-top: 30px;
+	background-color: white;
 }
 
 #subscribe input.btn.btn-lg,
@@ -803,7 +814,7 @@ footer {
 
 .btn {
     padding: 12px 20px;
-    background-color: #f2a900;
+    background-color: #000000;
     color: white;
     border: none;
     font-size: 1rem;
@@ -815,7 +826,7 @@ footer {
 }
 
 .btn:hover {
-    background-color: #e89b00;
+    background-color: #E9AB17;
 }
 
 /* Responsiveness */
